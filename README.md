@@ -1,1 +1,21 @@
-# AGENTIC-AI
+## DAY1 [31 JAN] =>Add basic sequential workflows using LangGraph
+
+- Implemented simple sequential workflows using LangGraph
+- Explored core LangGraph concepts:
+  - Graph: defines execution structure
+  - Node: atomic unit of computation
+  - Edge: controls execution order between nodes
+  - State: shared data passed and mutated across nodes
+  - Reducers: define how state updates are merged
+- Understood LangGraph execution model:
+  - Execution starts from entry point
+  - Nodes run deterministically based on graph definition
+  - LLM is treated as a callable node, not the controller
+- Built linear workflows to internalize:
+  - Deterministic step-by-step execution
+  - Clear separation of logic vs intelligence
+- Established basic code structure:
+  - Define State schema
+  - Define node functions
+  - Define edges and entry point
+  - Compile and invoke graph
